@@ -115,20 +115,23 @@
     margin-top: 25px;
     width: 480px;
 }
-
-.goWork {
+.myworkButton{
     width: 190px;
-    height: 45px;
+    padding: 13px;
     background: #7177F1;
-    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    text-align: center;
     border-radius: 8px;
-    border: none;
-    font-size: 18px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Montserrat';
     margin-top: 20px;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
 }
+.myworkButton span{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
 
 
 @media (min-width: 1125px) and (max-width: 1150px) {
