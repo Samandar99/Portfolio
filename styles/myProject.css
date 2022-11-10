@@ -1,0 +1,251 @@
+.project-My {
+    width: 100%;
+
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.elipsfoto{
+    position: absolute;
+    right: 2rem;
+    top: 10rem;
+}
+.elipsfoto1{
+    position: absolute;
+    right: 45rem;
+    top: 25rem;
+}
+
+
+.workS {
+    z-index: 0;
+}
+
+
+.tabs {
+    max-width: 1310px;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.projectleftfoto {
+    position: absolute;
+    top: -14rem;
+    left: 0;
+    z-index: 0;
+}
+
+.projectleftfoto img {
+    width: 1000px;
+    max-height: 758px;
+    z-index: 0;
+}
+
+.tabs__head {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    border-radius: 9px;
+
+
+}
+
+.tabs__toggle {
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #DDDDDD;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.radius {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.radius1 {
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+}
+
+.tabs__toggle.is-active {
+    background: #7177F1;
+    color: #fff;
+    border-bottom: 1px solid #7177F1;
+}
+
+.tabs__body {
+    max-width: 950px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.tabs__content img {
+    min-width: 250px;
+    width: 250px;
+    max-height: 320px;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.tabs__content {
+    display: flex;
+    gap: 30px;
+}
+
+.tabsInfo {
+    max-width: 630px;
+    width: 100%;
+
+}
+
+.textInfo {
+    line-height: 150%;
+    margin-top: 2rem;
+    width: 90%;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+}
+
+.textInfo2 {
+    line-height: 150%;
+    margin-top: 25px;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    width: 90%;
+}
+
+.tabsInfo button {
+    width: 190px;
+    height: 45px;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    border: none;
+    background: #7177F1;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+.tabsInfo h2 {
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+    color: #7177F1;
+}
+
+.tabs__content {
+    display: none;
+}
+
+.tabs__content.is-active {
+    display: flex;
+}
+
+
+.tabs__head span {
+    text-transform: capitalize;
+    color: #7177F1;
+}
+
+.title {
+    width: 100%;
+    text-transform: capitalize;
+
+    color: #7177F1;
+    font-size: 40px;
+}
+
+@media(min-width: 996px) and (max-width: 1255px) {
+    .tabs {
+        max-width: 1310px;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .projectleftfoto img {
+        display: none;
+    }
+
+}
+
+@media(min-width: 766px) and (max-width: 995.9px) {
+    .tabs {
+        max-width: 1310px;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .projectleftfoto img {
+        display: none;
+    }
+}
+
+
+@media(min-width: 540px) and (max-width: 765.9px) {
+    .tabs {
+        max-width: 1310px;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .projectleftfoto img {
+        display: none;
+    }
+}
+
+@media(max-width: 540px) {
+    .projectleftfoto img {
+        display: none;
+    }
+    .tabs {
+        max-width: 1310px;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .tabs__content.is-active {
+        display: flex;
+       flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+}

@@ -1,0 +1,267 @@
+.MyWork {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.Main-work {
+    width: 100%;
+    max-width: 1240px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutFront {
+    width: 630px;
+    height: 370px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    position: relative;
+    z-index: 999;
+}
+
+.workFotoleft {
+    max-width: 900px;
+    width: 100%;
+    max-height: 900px;
+    position: absolute;
+    top: 17rem;
+    right: 0rem;
+    z-index: 0;
+
+}
+
+.circlefoto {
+    position: absolute;
+    top: 60rem;
+    right: 3rem;
+    z-index: 0;
+    width: 59px;
+}
+
+
+
+
+.workFoto {
+    width: 495px;
+    max-width: 100%;
+    height: 425px;
+    min-height: 100%;
+    position: relative;
+    object-fit: contain;
+}
+
+.btnWork {
+    width: 190px;
+    height: 65px;
+    box-shadow: 0px 0px 20px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    background: #fff;
+    text-transform: uppercase;
+    color: #323232;
+    font-family: 'Montserrat';
+}
+
+.totalproject {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: #0FDAC2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: 10rem;
+    margin-top: -1rem;
+}
+
+.totalproject i {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+
+.aboutFront h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #7177F1;
+    font-family: 'Montserrat';
+}
+
+.aboutFront p {
+    font-family: 'Montserrat';
+    color: #323232;
+    text-transform: capitalize;
+    line-height: 150%;
+}
+
+
+.aboutText1 {
+    margin-top: 25px;
+    width: 500px;
+}
+
+.aboutText2 {
+    margin-top: 25px;
+    width: 480px;
+}
+
+.goWork {
+    width: 190px;
+    height: 45px;
+    background: #7177F1;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+}
+
+
+@media (min-width: 1125px) and (max-width: 1150px) {
+    .workFotoleft {
+        width: 900px;
+        position: absolute;
+        top: 45rem;
+        right: 0rem;
+        z-index: 0;
+    }
+}
+
+@media (min-width: 996px) and (max-width: 1124.9px) {
+    .Main-work {
+        position: relative;
+        width: 100%;
+        max-width: 1140px;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        z-index: 9;
+        flex-wrap: wrap;
+    }
+
+    .aboutFront {
+        margin-top: 3rem;
+    }
+
+    .workFotoleft {
+        width: 900px;
+        height: 800px;
+        position: absolute;
+        top: 15rem;
+        right: 0rem;
+        z-index: 0;
+    }
+
+}
+
+@media (min-width: 766px) and (max-width: 995.9px) {
+    .Main-work {
+        position: relative;
+        width: 770px;
+
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        z-index: 9;
+        flex-wrap: wrap;
+
+    }
+
+    .workFotoleft {
+        display: none;
+    }
+
+    .MyWork {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .aboutFront {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 765.9px) {
+    .Main-work {
+        position: relative;
+        width: 100%;
+        max-width: 1140px;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        z-index: 9;
+        flex-wrap: wrap;
+    }
+
+    .aboutFront {
+        width: 100%;
+
+        height: 370px;
+        border-radius: 8px;
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    }
+
+    .workFotoleft {
+        display: none;
+    }
+}
+
+@media(max-width: 539.9px) {
+    .aboutFront {
+        width: 100%;
+
+        height: auto;
+        border-radius: 8px;
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+    }
+
+    .aboutText1 {
+        margin-top: 25px;
+        width: 80%;
+    }
+
+    .aboutText2 {
+        margin-top: 25px;
+        width: 80%;
+    }
+
+    .workFotoleft {
+        display: none;
+    }
+
+    .workFoto {
+        width: 100%;
+        max-width: 100%;
+        height: 425px;
+        min-height: 100%;
+        position: relative;
+        object-fit: contain;
+    }
+
+    .workFotoleft {
+        display: none;
+    }
+}
